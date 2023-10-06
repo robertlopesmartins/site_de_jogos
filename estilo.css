@@ -1,0 +1,60 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do documento */
+    margin: 0; /* Remove as margens padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+    background-color: #f2f2f2; /* Define a cor de fundo para o corpo */
+}
+
+header {
+    background-color: rgb(185, 69, 15); /* Define a cor de fundo para o cabeçalho */
+    color: #fff; /* Define a cor do texto no cabeçalho */
+    padding: 20px; /* Adiciona espaço interno ao cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista padrão */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+nav li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 20px; /* Adiciona margem à direita entre os itens da lista */
+}
+
+/* Alterando a cor do texto do menu para branco */
+nav a {
+    color: white; /* Define a cor do texto do menu como branco */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.recipe {
+    background-color: #fff; /* Define a cor de fundo para as seções de receitas */
+    margin: 20px; /* Adiciona margem externa às seções de receitas */
+    padding: 20px; /* Adiciona espaço interno às seções de receitas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra à seção de receitas */
+}
+
+/* Estilos específicos para as receitas */
+.recipe h2 {
+    color: #333; /* Define a cor do título da receita */
+}
+
+.recipe img {
+    max-width: 100%; /* Limita a largura máxima da imagem a 100% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 10px; /* Adiciona margem acima da imagem */
+    margin-bottom: 20px; /* Adiciona margem abaixo da imagem */
+}
+
+.recipe ul, .recipe ol {
+    margin-left: 20px; /* Adiciona margem à esquerda para listas não ordenadas e ordenadas */
+}
+
+footer {
+    background-color: rgb(33, 118, 245); /* Define a cor de fundo para o rodapé */
+    color: #fff; /* Define a cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px; /* Adiciona espaço interno ao rodapé */
+}
